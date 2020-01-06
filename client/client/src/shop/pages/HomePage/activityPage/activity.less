@@ -1,0 +1,141 @@
+@import '~antd-mobile/dist/antd-mobile.css';
+.activityProduct{
+  .about-title {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    .about-title-back {
+      content: url('../../../../images/title_back_icon.png');
+      display: inline-block;
+      vertical-align: middle;
+      pointer-events: auto;
+      height: 55px;
+      margin-right: 10px;
+    }
+    .about-title-name {
+      font-size: 34px;
+      color: #000000;
+      margin-right: 45%;
+    }
+  }
+  .aboutActivity{
+    margin-top: 100px;
+  }
+  // .social-header{
+  //   height: 60px;
+  //   line-height: 60px;
+  //   color: #2A3145;
+  //   padding: 0 15px;
+  //   margin-top: 20px;
+  //   .hottitle{
+  //     font-size: 36px;
+  //     font-weight: 700;
+  //   }
+  //   .hotsmalltitle{
+  //     font-weight: 400;
+  //     color: #aaa;
+  //     font-size: 26px;
+  //     padding-left: 20px;
+  //   }
+  // }
+  .allproducts{
+    .activityList{
+      margin-bottom:20px;
+      .everyProduct{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 670px;
+        height: 200px;
+        padding: 20px 20px;
+        border-radius: 30px;
+        background-color: #fff;
+        .cartPic{
+          float: left;
+          width: 200px;
+          line-height: 200px;
+          height: 200px;
+          img{
+            border-radius: 20px;
+            vertical-align: middle;
+          }
+          margin-right: 20px;
+        }
+        .cartContent{
+          float: left;
+          width: 450px;
+          height: 200px;
+          .descriptionPro{
+            height: 110px;
+            span{
+              font-size: 28px;
+              color: #051b28;
+              letter-spacing: 1px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+            }
+          }
+          .edit{
+            width: 450px;
+            height: 80px;
+            line-height: 80px;
+            .price{
+              i{
+                font-size: 24px;
+              }
+              font-size: 28px;
+              font-family: JDZH-Regular!important;
+              display: inline-block;
+              width: 135px;
+              color: #3cbc34;
+              font-weight: 600;
+            }
+            .editnum{
+              display: inline-block;
+              width: 145px;
+              height: 80px;
+              line-height: 80px;
+              text-align: center;
+              span{
+                color: #ccc;
+                font-size: 24px;
+              }
+            }
+            .deletePro{
+              display: inline-block;
+              width: 170px;
+              height: 80px;
+              line-height: 80px;
+              text-align: center;
+              .buyNow{
+                display: inline-block;
+                width: 150px;
+                height: 60px;
+                border-radius: 30px;
+                line-height: 60px;
+                color: #fff;
+                font-size: 28px;
+                vertical-align: middle;
+                background-image: linear-gradient(to right, #9cf196, #52d681);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .clear{
+    clear: both;
+  }
+}

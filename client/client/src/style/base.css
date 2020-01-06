@@ -1,0 +1,184 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+button,
+input,
+select,
+textarea {
+  font: 400 24px/1.5 Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-style: normal;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+address,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+iframe {
+  display: block;
+}
+
+body {
+  width: 100%;
+  -moz-user-select: none;
+  color: #333;
+  background: #f6f6f6;
+  font-size: 32px !important;
+}
+
+img,
+fieldset {
+  border: 0;
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  font-weight: 400;
+  font-style: normal;
+}
+
+dfn {
+  font-family: Arial;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+em,
+address {
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  transition: color .2s linear;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+input {
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #cdcdcd;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #cdcdcd;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #cdcdcd;
+}
+
+/* global parts */
+.assets-loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.24rem;
+}
+
+/* * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+} */

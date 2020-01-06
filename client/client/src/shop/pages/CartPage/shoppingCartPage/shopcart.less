@@ -1,0 +1,282 @@
+@import '~antd-mobile/dist/antd-mobile.css';
+.shopcart{
+  .shopCartList{
+    margin-top: 105px;
+    margin-bottom: 200px;
+    .noshopcart{
+      text-align: center;
+      margin: 300px auto;
+      img{
+        margin-top: 100px;
+      }
+      .noSearchData{
+        color: #30B30E;
+        font-size: 28px;
+        margin-top: 20px;
+      }
+      .startBuy{
+        color: #fff;
+        width: 200px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #3cbc34;
+        margin-top: 40px;
+        font-size: 30px;
+      }
+    }
+  }
+  .about-title {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom: 1px solid #eee;
+    .about-title-back {
+      content: url('../../../../images/title_back_icon.png');
+      display: inline-block;
+      vertical-align: middle;
+      pointer-events: auto;
+      height: 55px;
+      margin-right: 10px;
+    }
+    .about-title-name {
+      font-size: 34px;
+      color: #000000;
+      margin-right: 45%;
+    }
+  }
+
+  .everyProduct{
+    height: 200px;
+    padding: 35px 20px;
+    background-color: #fff;
+  }
+  .selectpro{
+    float: left;
+    width: 30px;
+    height: 200px;
+    line-height: 200px;
+    margin-right: 10px;
+    .am-checkbox-inner{
+      width: 40px;
+      height: 40px;
+    }
+    .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+      border-color:#f60;
+      background-color: #f60;
+    }
+    .am-checkbox-inner:after{
+      width: 13px;
+      height: 21px;
+      top: 2.5px;
+      right: 10px;
+      border-width:0 3px 3px 0;
+    }
+  }
+  .cartPic{
+    float: left;
+    width: 200px;
+    line-height: 200px;
+    height: 200px;
+    margin-right: 20px;
+    img{
+      vertical-align: middle;
+      border-radius: 10px;
+    }
+  }
+  .cartContent{
+    float: left;
+    width: 420px;
+    height: 200px;
+    .descriptionPro{
+      height: 110px;
+      span{
+        font-size: 28px;
+        color: #051b28;
+        letter-spacing: 1px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+    }
+    .edit{
+      width: 420px;
+      height: 80px;
+      line-height: 80px;
+      .price{
+        i{
+          font-size: 24px;
+        }
+        font-size: 28px;
+        font-family: JDZH-Regular!important;
+        display: inline-block;
+        width: 130px;
+        color: #3cbc34;
+        font-weight: 600;
+      }
+      .editnum{
+        display: inline-block;
+        width: 200px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        .am-button{
+          font-size: 55px;
+          color: #ccc;
+          width: 50px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .pronum{
+          display: inline-block;
+          min-width: 50px;
+          text-align: center;
+          color: #333;
+          font-family: JDZH-Regular;
+          vertical-align: middle;
+        }
+      }
+      .deletePro{
+        display: inline-block;
+        width: 90px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        .delete{
+          font-size: 30px;
+          color: #777;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .settlement{
+    position: fixed;
+    bottom:100px;
+    width: 100%;
+    height: 100px;
+    padding-left: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 2px solid #e7e7e7;
+    .selectproAll{
+      float: left;
+      width: 140px;
+      height: 100px;
+      line-height: 100px;
+      margin-right: 10px;
+      .am-checkbox-inner{
+        width: 40px;
+        height: 40px;
+      }
+      .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+        border-color:#f60;
+        background-color: #f60;
+      }
+      .am-checkbox-inner:after{
+        width: 13px;
+        height: 21px;
+        top: 2.5px;
+        right: 10px;
+        border-width:0 3px 3px 0;
+      }
+    }
+    .total{
+      float: left;
+      height: 100px;
+      line-height: 100px;
+      min-width: 350px;
+      .smallTotal{
+        height: 80px;
+        line-height: 80px;
+        float: right;
+        font-size: 28px;
+        padding: 10px 20px;
+        .price-total{
+          font-size: 32px;
+          color: #3cbc34;
+          font-weight: 600;
+        }
+      }
+    }
+    .btn{
+      float: right;
+      height: 100px;
+      color: #fff;
+      font-size: 30px;
+      line-height: 100px;
+      width: 250px;
+      text-align: center;
+      background-color: #3cbc34;
+    }
+  }
+  .nodata2{
+    text-align: center;
+    margin: 300px auto;
+    .about-title {
+      width: 100%;
+      height: 100px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 99;
+      .about-title-back {
+        content: url('../../../../images/title_back_icon.png');
+        display: inline-block;
+        vertical-align: middle;
+        pointer-events: auto;
+        height: 55px;
+        margin-right: 10px;
+      }
+      .about-title-name {
+        font-size: 34px;
+        color: #000000;
+        margin-right: 45%;
+      }
+    }
+    img{
+      margin-top: 100px;
+    }
+    .noSearchData{
+      color: #30B30E;
+      font-size: 28px;
+      margin-top: 20px;
+    }
+  }
+  .am-checkbox-agree{
+    margin-left: 2px;
+    padding: 20px 0 0 20px;
+  }
+  .am-checkbox-agree .am-checkbox-agree-label{
+    font-size: 30px;
+    line-height: 2;
+    margin-left: 40px;
+  }
+  .am-checkbox-agree .am-checkbox-inner{
+    top:30px;
+  }
+}
+.am-toast-notice-content .am-toast-text{
+  font-size: 26px!important;
+  padding: 25px 35px;
+  border-radius: 10px;
+}
+.am-modal-button-group-h .am-modal-button:first-child {
+  color:#000;
+}
+.am-modal-button-group-h .am-modal-button:last-child {
+  color:#3cbc34;
+}

@@ -1,0 +1,172 @@
+@import '~antd-mobile/dist/antd-mobile.css';
+.order-detail{
+  .status-bar {
+    background: #3cbc34;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 100px;
+  }
+  .address-container {
+    display: flex;
+    background: #fff;
+    padding: 20px 10px;
+    font-size: 26px;
+    align-items: center;
+    .address-img {
+      margin: 0 25px 0 15px;
+      height: 60px;
+    }
+    .address-info {
+      .address-info-title {
+        display: flex;
+        .info-name {
+          margin-right: 15px;
+        }
+        .info-phone {
+          color: #aaa8a8;
+        }
+      }
+      .address {
+        width: 500px;
+      }
+    }
+  }
+  .order-container {
+    .order-list {
+      .order-list-item {
+        display: flex;
+        padding: 0 30px 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        // margin: 50px 0 50px 0;
+        .order-item {
+          .order-item-header {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            .header-name {
+            }
+            .header-status {
+              color: #3cbc34;
+            }
+          }
+          .order-item-content {
+            display: flex;
+            .content-img img {
+              margin-right: 30px;
+            }
+            .content-right {
+              .content-title {
+                display: flex;
+                width: 500px;
+                justify-content: space-between;
+                .price-container {
+                  font-size: 26px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-end;
+                  .content-num {
+                    color: #aaa8a8;
+                  }
+                }
+              }
+              .content-description {
+                min-width: 328px;
+                font-size: 26px;
+                height: 75px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                margin-right: 40px;
+              }
+              .exchange-description {
+                font-size: 20px;
+                color: #aaa8a8;
+                margin-top: 10px;
+              }
+            }
+          }
+          .total-box {
+            font-size: 22px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: flex-end;
+          }
+          .order-item-footer {
+            display: flex;
+            justify-content: flex-end;
+
+            .footer-operate {
+              .am-button-borderfix {
+                color: #797575;
+                margin: 10px;
+              }
+              .am-button-ghost::before {
+                border-color: #aaa8a8;
+              }
+              .am-button-active {
+                color: #c7c5c5;
+              }
+              .am-button-small {
+                font-size: 22px;
+                height: 50px;
+                line-height: 50px;
+                padding: 0 20px;
+              }
+            }
+          }
+        }
+      }
+      .order-list-item:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .price-box {
+    background: #fff;
+    padding: 20px 30px;
+    // font-size: 12px;
+    .integral {
+      font-size: 24px;
+    }
+    .container-flex {
+      display: flex;
+      justify-content: space-between;
+      .price-detail {
+        color: #3cbc34;
+      }
+    }
+  }
+  .order-info {
+    padding: 20px 30px;
+    .order-title {
+      margin: 0 0 15px;
+    }
+    .order-content {
+      font-size: 26px;
+      color: #888787;
+      margin-left: 20px;
+      .order-row {
+        margin: 10px 0;
+        .order-text {
+          margin-right: 40px;
+        }
+      }
+    }
+  }
+  .contact-seller {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    color: #888787;
+    img {
+      margin: 0 40px 0 50px;
+    }
+  }
+}
+.am-modal-button-group-h .am-modal-button:nth-child(2) {
+  color: #3cbc34;
+}

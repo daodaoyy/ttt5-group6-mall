@@ -1,0 +1,186 @@
+@import '~antd-mobile/dist/antd-mobile.css';
+// @import '../../../../style/antd-rewrite.css';
+
+.myinfo-title {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.myinfo-title-back {
+  content: url('../../../../images/title_back_icon.png');
+  display: inline-block;
+  vertical-align: middle;
+  pointer-events: auto;
+  height: 55px;
+  margin-right: 10px;
+}
+
+.myinfo-title-name {
+  font-size: 34px;
+  color: #000000;
+  margin-right: 40%;
+}
+
+
+.myinfo-banner {
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+  margin-top: 105px;
+}
+
+.myinfo-pic {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.myinfo-pic img {
+  width: 110px;
+  height: 110px;
+}
+
+.myinfo-tag {
+  font-size: 30px;
+  color: #000000;
+  margin-left: 70px;
+}
+
+.myinfo-nickname,
+.myinfo-sign {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.myinfo-birth {
+  margin-bottom: 2px;
+}
+
+.myinfo-sign {
+  height: 200px;
+}
+
+.myinfo-sign-main {
+  display: flex;
+  align-items: center;
+}
+
+.myinfo-nickname-tag,
+.myinfo-sex-tag,
+.myinfo-birth-tag,
+.myinfo-sign-tag {
+  width: 180px;
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 30px;
+  color: #707070;
+}
+
+.myinfo-nickname-msg,
+.myinfo-sign-msg {
+  display: inline-block;
+  width: 450px;
+  height: 100%;
+  line-height:40px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.test {
+  position: relative;
+  border-bottom: 0;
+}
+
+.test:after {
+  content: '';
+  position: absolute;
+  background-color: #ddd;
+  display: block;
+  z-index: 1;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1PX;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.sex-picker-list .am-list-item .am-list-line .am-list-extra,
+.date-picker-list .am-list-item .am-list-line .am-list-extra {
+  flex-basis: initial;
+  font-size: 30px;
+  color: #000000;
+  text-align: left;
+  flex: auto;
+}
+
+.sex-picker-list .am-list-item.am-list-item-middle .am-list-line,
+.date-picker-list .am-list-item.am-list-item-middle .am-list-line {
+  height: 100px;
+}
+
+.sex-picker-list .am-list-item .am-list-line .am-list-content,
+.date-picker-list .am-list-item .am-list-line .am-list-content {
+  font-size: 30px;
+  color: #707070;
+  margin-left: 30px;
+  flex: 0 0 180px;
+}
+
+.sex-picker-list .am-list-item .am-list-line .am-list-arrow,
+.date-picker-list .am-list-item .am-list-line .am-list-arrow {
+  background-image: url('../../../../images/goin_icon.png');
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.am-picker-popup-item {
+  font-size: 34px;
+  height: 84px;
+  line-height: 68px;
+  color: #000000;
+}
+
+.am-picker-col {
+  height: 476px;
+}
+
+.am-picker-col-item {
+  font-size: 32px;
+  height: 68px;
+  line-height: 68px;
+}
+
+.am-picker-col-indicator {
+  height: 68px;
+}
+
+.am-icon-lg {
+  width: 48px;
+  height: 48px;
+}

@@ -1,0 +1,153 @@
+@import '~antd-mobile/dist/antd-mobile.css';
+// @import '../../../../style/antd-rewrite.css';
+
+// An highlighted block
+@-webkit-keyframes scrollToUp {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 -1000px; // 向上滚动则就是图片的高度的负值，否则为图片的宽度，也可以百分比
+  }
+}
+
+@keyframes scrollToUp {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 -1000px;
+  }
+}
+
+.login-app-title {
+  width: 100%;
+  height: 80px;
+  font-size: 80px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 80px;
+  position: fixed;
+  z-index: 2;
+  top: 200px;
+  left: 0;
+}
+
+.login-cross {
+  position: fixed;
+  top: 40px;
+  left: 30px;
+  width: 80px;
+  height: 100px;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.login-bg-float {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+
+.login input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.login-bg-img {
+  width: 100%;
+  height: 100%;
+  background: url('https://qnimg.vadxq.com/luckyshop/1571111215132.login_bg.png');
+  background-size: cover;
+  /* 什么图片都可以*/
+  background-attachment: fixed;
+  /* 让背景图片和文本脱离*/
+  background-position: center center;
+  -webkit-animation: scrollToUp 15s linear infinite;
+  /* 引入 scrollToUp动画 */
+  animation: scrollToUp 15s linear infinite;
+}
+
+.login-layer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.login-form {
+  width: 100%;
+  height: 600px;
+  position: fixed;
+  z-index: 3;
+  top: 400px;
+  left: 0;
+}
+
+.login-form input {
+  width: 600px;
+  height: 100px;
+  margin-left: 10%;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  caret-color: #07e278;
+  border: none;
+  background: rgba(255, 255, 225, 0.3);
+  border-radius: 10px;
+}
+
+.login-form-password {
+  margin-top: 50px;
+}
+
+.login-error-msg {
+  width: 600px;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  color: red;
+  font-size: 26px;
+}
+
+.login-submit {
+  width: 600px;
+  height: 100px;
+  margin-left: 10%;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  border: none;
+  background-color: #07e278;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.login-footer {
+  width: 600px;
+  height: 100px;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-footer button {
+  background: none;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.forget-pass {
+  margin-left: 15px;
+}
