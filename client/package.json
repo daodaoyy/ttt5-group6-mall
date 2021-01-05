@@ -19,7 +19,7 @@
     "antd-mobile": "^2.2.9",
     "antd-mobile-demo-data": "^0.3.0",
     "array-tree-filter": "^2.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "bizcharts": "^3.4.5",
     "bluebird": "^3.5.3",
