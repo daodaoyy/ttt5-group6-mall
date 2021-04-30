@@ -836,67 +836,6 @@
   resolved "https://registry.npm.taobao.org/@nodelib/fs.stat/download/@nodelib/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha1-K1o6s/kYzKSKjHVMCBaOPwPrphs=
 
-"@sentry/browser@^5.7.0":
-  version "5.7.0"
-  resolved "https://registry.npm.taobao.org/@sentry/browser/download/@sentry/browser-5.7.0.tgz?cache=0&sync_timestamp=1570715996218&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sentry%2Fbrowser%2Fdownload%2F%40sentry%2Fbrowser-5.7.0.tgz#daaf36dfd30cf831b8c6d9c5a488a5fc629ebc6b"
-  integrity sha1-2q8239MM+DG4xtnFpIil/GKevGs=
-  dependencies:
-    "@sentry/core" "5.7.0"
-    "@sentry/types" "5.7.0"
-    "@sentry/utils" "5.7.0"
-    tslib "^1.9.3"
-
-"@sentry/core@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-5.7.0.tgz#c2aa5341e703ec7cf2acc69e51971a0b1f7d102a"
-  integrity sha512-gQel0d7LBSWJGHc7gfZllYAu+RRGD9GcYGmkRfemurmDyDGQDf/sfjiBi8f9QxUc2iFTHnvIR5nMTyf0U3yl3Q==
-  dependencies:
-    "@sentry/hub" "5.7.0"
-    "@sentry/minimal" "5.7.0"
-    "@sentry/types" "5.7.0"
-    "@sentry/utils" "5.7.0"
-    tslib "^1.9.3"
-
-"@sentry/hub@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-5.7.0.tgz#f7c356202a9db1daae82ce7f48ebf1139e4e9d02"
-  integrity sha512-qNdYheJ6j4P9Sk0eqIINpJohImmu/+trCwFb4F8BGLQth5iGMVQD6D0YUrgjf4ZaQwfhw9tv4W6VEfF5tyASoA==
-  dependencies:
-    "@sentry/types" "5.7.0"
-    "@sentry/utils" "5.7.0"
-    tslib "^1.9.3"
-
-"@sentry/integrations@^5.7.0":
-  version "5.7.0"
-  resolved "https://registry.npm.taobao.org/@sentry/integrations/download/@sentry/integrations-5.7.0.tgz#17c294d93796f60f2a25be21af20816b9f2e7b90"
-  integrity sha1-F8KU2TeW9g8qJb4hryCBa58ue5A=
-  dependencies:
-    "@sentry/types" "5.7.0"
-    "@sentry/utils" "5.7.0"
-    tslib "^1.9.3"
-
-"@sentry/minimal@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-5.7.0.tgz#832d26bcd862c6ea628d48ad199ac7f966a2d907"
-  integrity sha512-0sizE2prS9nmfLyVUKmVzFFFqRNr9iorSCCejwnlRe3crqKqjf84tuRSzm6NkZjIyYj9djuuo9l9XN12NLQ/4A==
-  dependencies:
-    "@sentry/hub" "5.7.0"
-    "@sentry/types" "5.7.0"
-    tslib "^1.9.3"
-
-"@sentry/types@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-5.7.0.tgz#e8677e57b40c2c63cad42c02add12b238e647c10"
-  integrity sha512-bFRVortg713dE2yJXNFgNe6sNBVVSkpoELLkGPatdVQi0dYc6OggIIX4UZZvkynFx72GwYqO1NOrtUcJY2gmMg==
-
-"@sentry/utils@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-5.7.0.tgz#a6850aa4f5476fa26517cd5c6248f871d8d9939b"
-  integrity sha512-XmwQpLqea9mj8x1N7P/l4JvnEb0Rn5Py5OtBgl0ctk090W+GB1uM8rl9mkMf6698o1s1Z8T/tI/QY0yFA5uZXg==
-  dependencies:
-    "@sentry/types" "5.7.0"
-    tslib "^1.9.3"
-
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.npm.taobao.org/@sindresorhus/is/download/@sindresorhus/is-0.14.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sindresorhus%2Fis%2Fdownload%2F%40sindresorhus%2Fis-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -5454,9 +5393,9 @@ fast-levenshtein@~2.0.4:
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
 figgy-pudding@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.npm.taobao.org/figgy-pudding/download/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
-  integrity sha1-hiRwESkBxyeg5JWoB0S9W6odZ5A=
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
+  integrity sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==
 
 figures@^2.0.0:
   version "2.0.0"
@@ -10318,9 +10257,9 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.npm.taobao.org/ssri/download/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha1-KjxBso3UW2K2Nnbst0ABJlrp7dg=
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
