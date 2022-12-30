@@ -41,7 +41,7 @@
     "babel-plugin-import": "^1.11.2",
     "copy-webpack-plugin": "^5.0.3",
     "css-loader": "^2.1.1",
-    "egg-bin": "^4.13.1",
+    "egg-bin": "^5.9.0",
     "egg-cors": "^2.2.0",
     "egg-scripts": "^2.11.0",
     "eslint": "^5.16.0",
