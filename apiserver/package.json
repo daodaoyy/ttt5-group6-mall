@@ -13,7 +13,7 @@
     "egg-cors": "^2.2.0",
     "egg-jwt": "^3.1.6",
     "egg-scripts": "^2.11.0",
-    "egg-sequelize": "^5.2.0",
+    "egg-sequelize": "^6.0.0",
     "fecha": "^3.0.3",
     "mysql2": "^1.7.0",
     "qiniu": "^7.2.2",
